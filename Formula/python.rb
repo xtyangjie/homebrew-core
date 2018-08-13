@@ -1,14 +1,15 @@
 class Python < Formula
   desc "Interpreted, interactive, object-oriented programming language"
   homepage "https://www.python.org/"
-  url "https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz"
-  sha256 "0382996d1ee6aafe59763426cf0139ffebe36984474d0ec4126dd1c40a8b3549"
+  url "https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz"
+  sha256 "f434053ba1b5c8a5cc597e966ead3c5143012af827fd3f0697d21450bb8d87a6"
+  revision 1
 
   bottle do
     rebuild 1
-    sha256 "f942b7caf05766275911a9e16bf166397133ab97f71d8cb451aba75e27d1fe7a" => :high_sierra
-    sha256 "f1e4eba0893a930a2cb30a77244f3cc48374dcc6c5c03a815427c7774b130bd7" => :sierra
-    sha256 "1b35843fa0a2ae8a778e2e2e4022b4c9cae674481fd8e43c49b97af8baea248d" => :el_capitan
+    sha256 "1bc5a2d3f0a8602bf2f46de7c43fcb6dde4f110c0f4518d4e802cb1f733a43de" => :high_sierra
+    sha256 "131d39120ac6ca2f21bf231de7414c08916cea472bc5219e0bcb49541f77cb9f" => :sierra
+    sha256 "b2584ea6f16c47fe3795745e9cae5a7762f750aa78c15cbe14736dcd2602b755" => :el_capitan
   end
 
   head do

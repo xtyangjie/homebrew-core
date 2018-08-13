@@ -17,7 +17,7 @@ class Jupyter < Formula
 
   depends_on "ipython"
   depends_on "pandoc"
-  depends_on "xtyangjie/core/python3"
+  depends_on "python" => "3.6-"
   depends_on "zeromq"
   depends_on "pyqt" if build.with? "qtconsole"
 
